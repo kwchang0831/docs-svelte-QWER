@@ -1,0 +1,39 @@
+{
+  "name": "@kwchang0831/docs-svelte-qwer",
+  "version": "0.0.1",
+  "author": "kwchang0831",
+  "license": "MIT",
+  "homepage": "https://docs-svelte-qwer.vercel.app/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwchang0831/docs-svelte-QWER.git"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "format": "prettier --write .",
+    "husky": "husky install && npx husky set .husky/pre-commit \"npx lint-staged\" && gitmoji -i"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
+  },
+  "lint-staged": {
+    "*.{md,html,scss,css,svelte,ts,js,cjs}": "prettier --write"
+  },
+  "devDependencies": {
+    "gitmoji-cli": "^6.2.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "postcss": "^8.4.16",
+    "postcss-prefix-selector": "^1.16.0",
+    "prettier": "^2.7.1",
+    "sitemap": "^7.1.1",
+    "vitepress": "1.0.0-alpha.14",
+    "vue": "^3.2.39"
+  }
+}
