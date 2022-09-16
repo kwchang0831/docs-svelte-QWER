@@ -4,26 +4,21 @@ title: user/config/QWER.config.js
 
 # QWER.config.js
 
-::: tip
-
-Generally, you DO NOT need to modify this file at all.
-
-:::
-
-## Default Values
+## User Config
 
 These are default values that you might consider modify to fit your taste.
 
 ```ts
-export const Config = {
-  ...
-
+export const UserConfig = {
+  DefaultDesktopShowTagFilter: false,
   DefaultCoverStyle: 'IN',
   DefaultTagName: 'tags',
-  PostLanguageTagName: 'Language',
   DefaultPostLanguage: 'English',
+  PostLanguageTagName: 'Language',
   SeriesTagName: 'Series',
   YearTagName: 'Year',
+
+  ...
 };
 ```
 
@@ -33,43 +28,33 @@ QWER comes with image pre-process procedure. It will take your cover image or ot
 
 If you need to tune it, the following is the part where you would want to adjust.
 
-```js
-// QWER.confitg.js
-
-export const ImageConfig = {
+```ts
+export const UserConfig = {
   ...
 
   BannerImage: {
-    width: 900,
-    height: 200,
-    format: ['avif', 'webp'],
+    width: 768,
+    height: 320,
+    format: ['avif'],
   },
 
   ExtraResolutions: {
     1280: {
       width: 1280,
-      format: ['avif', 'webp'],
-      minWidth: '1280px',
-    },
-    1024: {
-      width: 1024,
-      format: ['avif', 'webp'],
+      format: ['avif'],
       minWidth: '1024px',
     },
-    854: {
-      width: 854,
-      format: ['avif', 'webp'],
-      minWidth: '768px',
-    },
-    640: {
-      width: 640,
-      format: ['avif', 'webp'],
+    800: {
+      width: 800,
+      format: ['avif'],
       minWidth: '360px',
     },
   },
 
   // For original image without reszing
   ExtraFormats: ['avif'],
+
+  ...
 };
 ```
 
@@ -80,7 +65,7 @@ QWER will auto generate routes based on `user/blogs`.
 If you have created your own routes, it would be better for you to list them here to prevent accidently overwritten.
 
 ```ts
-export const Config = {
+export const UserConfig = {
   ...
 
   PreserveFilesInRoutes: [
@@ -95,7 +80,7 @@ export const Config = {
   ],
 
   ...
-}
+};
 ```
 
 ## The Rest
