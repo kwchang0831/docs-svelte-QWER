@@ -11,3 +11,5 @@ node_modules
 .netlify
 .husky
 .tool-versions
+
+docs/.vitepress/dist

@@ -4,12 +4,18 @@ import { SitemapStream } from 'sitemap';
 
 const links = [];
 
+const ogLang = 'en-US';
+const ogTitle = 'QWER DOCS';
+const ogDescription =
+  'Documentation for QWER - SvelteKit Powered Static Site Generator - Simply Awesome, Powerful, Performant, and Built with Love ❤.';
+const ogImage = 'https://docs-svelte-qwer.vercel.app/og.webp';
+const ogUrl = 'https://docs-svelte-qwer.vercel.app/';
+const commitRef = process.env.COMMIT_REF?.slice(0, 8) || 'dev';
+
 export default {
-  lang: 'en-US',
-
-  title: 'QWER DOCS',
-
-  description: 'Documentation for QWER',
+  lang: ogLang,
+  title: ogTitle,
+  description: ogDescription,
 
   head: [
     ['link', { rel: 'preconnect', href: 'https://plausible.kwchang0831.dev' }],
@@ -21,6 +27,17 @@ export default {
         src: 'https://plausible.kwchang0831.dev/js/plausible.js',
       },
     ],
+    ['meta', { name: 'author', content: 'kwchang0831' }],
+    ['meta', { property: 'og:locale', content: ogLang }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: ogTitle }],
+    ['meta', { property: 'og:image', content: ogImage }],
+    ['meta', { property: 'og:url', content: ogUrl }],
+    ['meta', { property: 'og:description', content: ogDescription }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:title', content: ogTitle }],
+    ['meta', { name: 'twitter:description', content: ogDescription }],
+    ['meta', { name: 'twitter:image', content: ogImage }],
   ],
 
   cleanUrls: 'with-subfolders',
@@ -64,7 +81,7 @@ export default {
     lastUpdatedText: 'Updated Date',
 
     footer: {
-      message: 'Released under the MIT License.',
+      message: `Released under the MIT License. (${commitRef})`,
       copyright: 'Copyright © 2022-present @kwchang0831',
     },
   },
