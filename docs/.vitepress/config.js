@@ -10,7 +10,7 @@ const ogDescription =
   'Documentation for QWER - SvelteKit Powered Static Site Generator - Simply Awesome, Powerful, Performant, and Built with Love ❤.';
 const ogImage = 'https://docs-svelte-qwer.vercel.app/og.webp';
 const ogUrl = 'https://docs-svelte-qwer.vercel.app/';
-const commitRef = process.env.COMMIT_REF?.slice(0, 8) || 'dev';
+const gitCommitSHA = process.env.VERCEL_GIT_COMMIT_SHA?.slice(0, 8) || 'dev';
 
 export default {
   lang: ogLang,
@@ -81,7 +81,7 @@ export default {
     lastUpdatedText: 'Updated Date',
 
     footer: {
-      message: `Released under the MIT License. (${commitRef})`,
+      message: `Released under the MIT License. (${gitCommitSHA})`,
       copyright: 'Copyright © 2022-present @kwchang0831',
     },
   },
