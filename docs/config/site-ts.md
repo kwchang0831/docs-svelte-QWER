@@ -4,6 +4,14 @@ title: user/config/site.ts
 
 # site.ts
 
+This file contains all the settings to customize your QWER site.
+
+:::tip
+
+You are required to update this file.
+
+:::
+
 ## siteConfig
 
 ```ts
@@ -35,6 +43,8 @@ export const siteConfig: Site.Config = {
 };
 ```
 
+Most of the settings are pretty much self-explanatory.
+
 ### statusTip
 
 This takes plain text or HTML text. The input will NOT be sanitized.
@@ -48,6 +58,8 @@ These is used for Index Profile avatar and Post Heading author avatar.
 These avatar are used for webmanifest.
 
 ## headConfig
+
+This custom head is where you can inject your script like Google Analytics.
 
 ```ts
 export const headConfig: Site.Head = {
@@ -66,9 +78,9 @@ export const headConfig: Site.Head = {
 };
 ```
 
-This custom head is where you can inject your script like Google Analytics.
-
 ## dateConfig
+
+Check out [MSDN #Date.prototype.toLocaleDateString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString) for more information about how to set up this config.
 
 ```ts
 export const dateConfig: Site.DateConfig = {
@@ -95,9 +107,19 @@ export const dateConfig: Site.DateConfig = {
 };
 ```
 
-Check out [MSDN #Date.prototype.toLocaleDateString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString) for more information about how to set up this config.
-
 ## giscusConfig
+
+Set up your Giscus following the official generator: [https://giscus.app/](https://giscus.app/).
+
+::: tip
+
+Make sure that:
+
+1. The repository is [public](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/setting-repository-visibility#making-a-repository-public), otherwise visitors will not be able to view the discussion.
+1. The [giscus](https://github.com/apps/giscus) app is installed, otherwise visitors will not be able to comment and react.
+1. The Discussions feature is turned on by [enabling it for your repository](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/enabling-or-disabling-github-discussions-for-a-repository).
+
+:::
 
 ```ts
 export const giscusConfig: Giscus.Config = {
@@ -116,18 +138,6 @@ export const giscusConfig: Giscus.Config = {
   'data-strict': '0',
 };
 ```
-
-Set up your Giscus following the official generator: [https://giscus.app/](https://giscus.app/).
-
-::: tip
-
-Make sure that:
-
-1. The repository is [public](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/setting-repository-visibility#making-a-repository-public), otherwise visitors will not be able to view the discussion.
-1. The [giscus](https://github.com/apps/giscus) app is installed, otherwise visitors will not be able to comment and react.
-1. The Discussions feature is turned on by [enabling it for your repository](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/enabling-or-disabling-github-discussions-for-a-repository).
-
-:::
 
 ## navConfig & mobilenavConfig
 

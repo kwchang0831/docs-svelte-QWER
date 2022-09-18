@@ -72,7 +72,7 @@ export default {
       '/intro/': sidebarGuide(),
       '/writing/': sidebarGuide(),
       '/qwer/': sidebarGuide(),
-      'contributing/': sidebarGuide(),
+      '/contributing/': sidebarGuide(),
       '/config/': sidebarConfig(),
     },
 
@@ -151,6 +151,7 @@ function sidebarConfig() {
       items: [
         { text: 'site.ts', link: '/config/site-ts' },
         { text: 'QWER.config.js', link: '/config/qwer-config-js' },
+        { text: 'userTheme.scss', link: '/config/userTheme-scss' },
       ],
     },
   ];

@@ -10,7 +10,7 @@ title: What is QWER?
 
 QWER is currently in `alpha` status. Kindly expect breaking changes between minor releases. It is funtional and work out-of-the-box for technical blog. However, it has not yet tested for high volume of posts (eg. > 100) and it might not be suitable for it as for now.
 
-It's a project for learning Svelte and for fun. I hope you will enjoy taking it apart and build your own solution.
+It's a project for learning Svelte and for fun. We hope you will enjoy taking it apart and build your own solution.
 
 :::
 
