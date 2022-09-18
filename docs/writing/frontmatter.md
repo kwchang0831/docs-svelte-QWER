@@ -128,7 +128,7 @@ cover: ./cover.jpg
 
 It takes relative path `./image.jpg` or `/favicon.png`, or absolute path `https://svelte-qwer.vercel.app/favicon.png`.
 
-For more information about relative path, see ~~Asset Handling~~.
+For more information about relative path, see [Asset Handling](/writing/asset-handling).
 
 ## coverCaption
 

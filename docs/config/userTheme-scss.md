@@ -4,7 +4,7 @@ title: user/config/userTheme.scss
 
 # userTheme.scss
 
-If you would like to customize some of the style, check out the `src/lib/styles/defaultTheme.scss`. Copy and paste content of it to `user/config/userTheme.scss` and overwrite the variable with your perferences.
+If you would like to customize some of the styles, check out the `src/lib/styles/defaultTheme.scss`. Copy and paste content of it to `user/config/userTheme.scss` and overwrite the variable with your perferences.
 
 ## Example
 

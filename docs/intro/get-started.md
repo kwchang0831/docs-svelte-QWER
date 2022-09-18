@@ -75,7 +75,7 @@ For `siteConfig.url`, you will get your own url after deploying onto [Vercel](ht
 
 :::
 
-See ~~Configs~~ for more details, otherwise you may continue.
+See [Config](/config/site-ts) for more details, otherwise you may continue.
 
 ## Setp 5. Add a post
 
