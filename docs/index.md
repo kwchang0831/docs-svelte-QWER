@@ -13,7 +13,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /intro/get-started
+      link: /intro/getting-started
     - theme: alt
       text: See the Demo
       link: https://svelte-qwer.vercel.app/

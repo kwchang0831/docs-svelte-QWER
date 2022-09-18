@@ -1,8 +1,8 @@
 ---
-title: Get Started with QWER
+title: Getting Started with QWER
 ---
 
-# 🎉 Get Started with QWER
+# 🎉 Getting Started with QWER
 
 This post will guide you through deploying your first [QWER](https://github.com/kwchang0831/svelte-QWER) blog site.
 

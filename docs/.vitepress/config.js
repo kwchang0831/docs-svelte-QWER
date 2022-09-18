@@ -46,7 +46,7 @@ export default {
 
   themeConfig: {
     nav: [
-      { text: 'Guide', link: '/intro/get-started' },
+      { text: 'Guide', link: '/intro/getting-started' },
       { text: 'Config', link: '/config/site-ts' },
       {
         text: 'CHANGELOG',
@@ -80,6 +80,8 @@ export default {
 
     lastUpdatedText: 'Updated Date',
 
+    outline: 'deep',
+
     footer: {
       message: `Released under the MIT License. (${gitCommitSHA})`,
       copyright: 'Copyright © 2022-present @kwchang0831',
@@ -109,7 +111,7 @@ function sidebarGuide() {
       text: 'Introduction',
       collapsible: true,
       items: [
-        { text: 'Get Started', link: '/intro/get-started' },
+        { text: 'Getting Started', link: '/intro/getting-started' },
         { text: 'What is QWER?', link: '/intro/what-is-qwer' },
         { text: 'Developing', link: '/intro/developing' },
         { text: 'Deploying', link: '/intro/deploying' },
