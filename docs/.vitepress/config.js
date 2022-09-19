@@ -77,6 +77,7 @@ export default {
     sidebar: {
       '/intro/': sidebarGuide(),
       '/writing/': sidebarGuide(),
+      '/customize/': sidebarGuide(),
       '/qwer/': sidebarGuide(),
       '/contributing/': sidebarGuide(),
       '/config/': sidebarConfig(),
@@ -124,6 +125,11 @@ function sidebarGuide() {
       ],
     },
     {
+      text: 'Customize',
+      collapsible: true,
+      items: [{ text: 'QuickStart', link: '/customize/quick-start' }],
+    },
+    {
       text: 'Writing',
       collapsible: true,
       items: [
@@ -141,6 +147,7 @@ function sidebarGuide() {
         { text: 'user Folder', link: '/qwer/user-folder' },
         { text: 'user/assets', link: '/qwer/user-assets' },
         { text: 'user/config', link: '/qwer/user-config' },
+        { text: 'user/public', link: '/qwer/user-public' },
       ],
     },
     {

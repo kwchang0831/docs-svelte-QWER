@@ -129,6 +129,6 @@ You can go ahead check [Vercel Dashboard](https://vercel.com/dashboard) for your
 
 By now, you should have a basic and functional [QWER](https://github.com/kwchang0831/svelte-QWER) blog site deployed and ready to show other people what you have built.
 
-Next, you should start writing your own blogs using Markdown Syntax and remove all the example blogs.
+Next, you should start writing your own blogs using Markdown Syntax and remove all the example blogs. And, learn more about FrontMatter and User configurations.
 
-And, learn more about FrontMatter and User configurations.
+Otherwise, you could check out [QuickStart for Customizing](/customize/quick-start).
