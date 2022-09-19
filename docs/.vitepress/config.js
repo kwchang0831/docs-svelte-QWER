@@ -63,6 +63,12 @@ export default {
       text: 'Edit this page on GitHub',
     },
 
+    algolia: {
+      appId: 'EQR5BHYH0A',
+      apiKey: '784e66f130e45be2ee59446a951e6c06',
+      indexName: 'svelte-qwer',
+    },
+
     // localeLinks: {
     //   text: 'English',
     //   items: [{ text: '中文', link: 'https://doc-svelte-qwer.vercel.app' }],
