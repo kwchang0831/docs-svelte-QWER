@@ -27,3 +27,9 @@ This file is also referenced in `user/config/site.ts` for creating difference si
 Open `user/config/site.ts`, replace `siteConfig` with your own information.
 
 For more information, please check out [site.ts](/config/site-ts).
+
+:::tip
+
+For the `siteConfig.url`, you can come back modify it after you have deployed onto Vercel or Netlify and have the deployed url handy.
+
+:::
