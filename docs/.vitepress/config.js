@@ -127,7 +127,10 @@ function sidebarGuide() {
     {
       text: 'Customize',
       collapsible: true,
-      items: [{ text: 'QuickStart', link: '/customize/quick-start' }],
+      items: [
+        { text: 'QuickStart', link: '/customize/quick-start' },
+        { text: 'Website Analytics', link: '/customize/website-analytics' },
+      ],
     },
     {
       text: 'Writing',
