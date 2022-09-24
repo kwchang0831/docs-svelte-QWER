@@ -83,6 +83,30 @@ export const UserConfig = {
 };
 ```
 
+## Special Routing Rules
+
+Normally, QWER generate slug/url based on the folder structure inside `user/blogs`.
+
+eg. `/posts/{year}/{title}.{file-exntension}` => `/post/{year}/{title}`
+
+### Rule : PostsYearMonthDate
+
+As a user requested, a custom routing rule has been created which can be enabled in the `UserConfig`.
+
+```js
+export const UserConfig = {
+  ...
+
+  RoutingRules: {
+    PostsYearMonthDate: true,
+  },
+};
+```
+
+This rule will change routing rules for files under `/user/blogs/posts`.
+
+eg. `/posts/{year}/{title}.{file-exntension}` => `/posts/{year}/{month}/{day}/{title}`
+
 ## The Rest
 
 The rest of values should not be modified. Unless you know what you are doing.
