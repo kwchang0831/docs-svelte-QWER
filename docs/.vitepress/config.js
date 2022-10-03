@@ -130,6 +130,7 @@ function sidebarGuide() {
       items: [
         { text: 'QuickStart', link: '/customize/quick-start' },
         { text: 'Website Analytics', link: '/customize/website-analytics' },
+        { text: 'i18n', link: '/customize/i18n' },
       ],
     },
     {
