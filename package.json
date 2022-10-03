@@ -26,14 +26,14 @@
     "*.{md,html,scss,css,svelte,ts,js,cjs}": "prettier --write"
   },
   "devDependencies": {
-    "gitmoji-cli": "^6.2.0",
+    "gitmoji-cli": "^7.0.1",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
-    "postcss": "^8.4.16",
+    "postcss": "^8.4.17",
     "postcss-prefix-selector": "^1.16.0",
     "prettier": "^2.7.1",
     "sitemap": "^7.1.1",
-    "vitepress": "1.0.0-alpha.16",
-    "vue": "^3.2.39"
+    "vitepress": "1.0.0-alpha.19",
+    "vue": "^3.2.40"
   }
 }
