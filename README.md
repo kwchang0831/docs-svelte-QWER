@@ -10,15 +10,15 @@ Documentation Site for QWER - Simply Awesome <b>Blog Starter</b> built with <b>S
 <a href="https://github.com/kwchang0831/svelte-QWER/discussions/categories/q-a"><img src="https://img.shields.io/badge/💬 Discussion-Q&A-informational" alt="QWER Q&A"></a>
 </p>
 
+<p align="center">
+<a href="https://docs-svelte-qwer.vercel.app"><img src="https://raw.githubusercontent.com/kwchang0831/docs-svelte-QWER/main/docs/public/preview.webp" style="border-radius: 25px; object-fit: cover;" /></a>
+</p>
+
 ## 🎉 Try [QWER](https://github.com/kwchang0831/svelte-QWER/) out
 
 ```bash
 npx degit kwchang0831/svelte-QWER my-blog
 ```
-
-<p align="center"><img src="https://raw.githubusercontent.com/kwchang0831/svelte-QWER/main/user/assets/preview.webp" alt="https://raw.githubusercontent.com/kwchang0831/svelte-QWER/main/user/assets/mobile-preview.webp" /></p>
-<br/>
-<p align="center"><img src="https://raw.githubusercontent.com/kwchang0831/svelte-QWER/main/user/assets/mobile-preview.webp" alt="https://raw.githubusercontent.com/kwchang0831/svelte-QWER/main/user/assets/mobile-preview.webp" /></p>
 
 ## 😊 Are you using QWER?
 
