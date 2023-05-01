@@ -140,7 +140,7 @@ function sidebarGuide() {
         { text: 'Markdown Basic', link: '/writing/markdown-basic' },
         { text: 'Markdown Extended', link: '/writing/markdown-extended' },
         { text: 'Front Matter', link: '/writing/frontmatter' },
-        { text: 'Asset Handling', link: '/writing/asset-handling' },
+        { text: 'Image Asset Handling', link: '/writing/image-asset-handling' },
       ],
     },
     {

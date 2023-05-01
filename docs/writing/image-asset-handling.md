@@ -1,10 +1,10 @@
 ---
-title: Asset Handling for QWER Post Writing
+title: Image Asset Handling for QWER Post Writing
 ---
 
-# Asset Handling
+# Image Asset Handling
 
-All Markdown files are compiled into Svelte components and processed by QWER. You can reference assets using relative URLs, for example:
+All Markdown files are compiled into Svelte components and processed by QWER. You can reference image assets using relative URLs, for example:
 
 ```md
 ![Example](./example.jpg)
@@ -65,6 +65,28 @@ Example picture from first-post folder:
 
 ![Example](/first-post/example.jpg)
 ```
+
+## Files under Assets Folder
+
+Say you have the following image files under `/user/assets/` folder
+
+```md
+/user/assets/logo1.png
+/user/assets/shared/logo2.png
+```
+
+You can reference these image files in the .md file by the following
+
+```md
+![logo1](/logo1.png)
+![logo2](/shared/logo2.png)
+```
+
+::: tip
+
+If you have images with the same filenames under the public folder, the images under assets folder always have higher priority. Meaning that the images under assets folder will be used rather than images under public folder.
+
+:::
 
 ## Public Files
 

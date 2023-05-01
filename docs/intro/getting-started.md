@@ -14,9 +14,9 @@ This post will guide you through deploying your first [QWER](https://github.com/
 
 1. Get [node.js](https://nodejs.org/).
 
-   Either 16.17.0 LTS or Latest 18.x.x will work.
+   v18.16.0 LTS
 
-1. Get [pnpm](https://pnpm.io/).
+2. Get [pnpm](https://pnpm.io/).
 
    ```sh
    npm i -g pnpm
@@ -81,7 +81,7 @@ See [Config](/config/site-ts) for more details, otherwise you may continue.
 
 Create a post by adding a new file under `user/blogs/first-post/index.md`.
 
-```text
+```txt
 .
 ├─ user
 │  └─ blogs
