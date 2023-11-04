@@ -18,15 +18,15 @@ export default {
   description: ogDescription,
 
   head: [
-    ['link', { rel: 'preconnect', href: 'https://plausible.kwchang0831.dev' }],
-    [
-      'script',
-      {
-        defer: '',
-        'data-domain': 'docs-svelte-qwer.vercel.app',
-        src: 'https://plausible.kwchang0831.dev/js/plausible.js',
-      },
-    ],
+    // ['link', { rel: 'preconnect', href: 'https://plausible.kwchang0831.dev' }],
+    // [
+    //   'script',
+    //   {
+    //     defer: '',
+    //     'data-domain': 'docs-svelte-qwer.vercel.app',
+    //     src: 'https://plausible.kwchang0831.dev/js/plausible.js',
+    //   },
+    // ],
     ['meta', { name: 'author', content: 'kwchang0831' }],
     ['meta', { property: 'og:locale', content: ogLang }],
     ['meta', { property: 'og:type', content: 'website' }],
