@@ -45,7 +45,7 @@ This post will guide you through deploying your first [QWER](https://github.com/
 1. Set up husky.
 
    ```sh
-   pnpm husky
+   pnpm add -w --save-dev husky
    ```
 
 ## Step 3. Boot up dev environment
